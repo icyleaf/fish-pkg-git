@@ -27,6 +27,7 @@ alias gca! 'git commit -v -a --amend'
 alias gcam 'git commit -v -a -m'
 alias gcan! 'git commit -v -a -s --no-edit --amend'
 alias gcb 'git checkout -b'
+alias gcd 'git checkout develop'
 alias gcf 'git config --list'
 alias gcl 'git clone --recursive'
 function gclean
