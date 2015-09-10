@@ -1,4 +1,3 @@
-[![][travis-badge]][travis-link]
 ![][license-badge]
 
 <div align="center">
@@ -25,16 +24,14 @@ See the [Source](git.fish) for a list of aliases and functions provided by the p
 
 # License
 
-[MIT][mit] © [{{USER}}][author] et [al][contributors]
+[MIT][mit] © [icyleaf][author] et [al][contributors]
 
 
 [mit]:            http://opensource.org/licenses/MIT
-[author]:         http://github.com/{{USER}}
-[contributors]:   https://github.com/{{USER}}/pkg-git/graphs/contributors
+[author]:         http://github.com/icyleaf
+[contributors]:   https://github.com/icyleaf/fish-pkg-git/graphs/contributors
 [omf-link]:       https://www.github.com/oh-my-fish/oh-my-fish
 
 [omz-p-git-link]: https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/git
 
 [license-badge]:  https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square
-[travis-badge]:   http://img.shields.io/travis/{{USER}}/git.svg?style=flat-square
-[travis-link]:    https://travis-ci.org/{{USER}}/git
