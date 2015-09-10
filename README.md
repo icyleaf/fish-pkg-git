@@ -9,14 +9,13 @@
 
 # git
 
-Git alias plugin for [Oh My Fish][omf-link] - cloned from oh-my-zsh [plugins/git][omz-p-git-link].
+Git alias plugin for [Oh My Fish][omf-link] - Inspire based [oh-my-zsh/plugins/git][omz-p-git-link].
 
 ## Install
 
 ```fish
 $ omf install git
 ```
-
 
 ## Usage
 

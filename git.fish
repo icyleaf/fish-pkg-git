@@ -30,6 +30,19 @@ alias gcb 'git checkout -b'
 alias gcd 'git checkout develop'
 alias gcf 'git config --list'
 alias gcl 'git clone --recursive'
+
+function gccd -d 'Change directory to the repo after clone it'
+  set -l repo $argv[1]
+  set -l name (echo $repo | sed "s#^.*/\(.*\)\(.git\)*#\1#")
+  if [ (count $argv) -eq 2 ]
+    set name $argv[2]
+  end
+
+  gcl $repo $name
+  echo "Changing directory..."
+  cd $name
+end
+
 function gclean
   git reset --hard
   git clean -dfx
